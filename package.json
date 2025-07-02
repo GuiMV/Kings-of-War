@@ -1,0 +1,17 @@
+{
+  "name": "kings-of-war",
+  "version": "1.0.0",
+  "description": "Sistema de gerenciamento das guerras do clã Kings of War, integrado ao Clash of Clãs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0",
+    "node-fetch": "^2.7.0"
+  }
+}
