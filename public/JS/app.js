@@ -27,11 +27,18 @@ async function carregarMembros() {
     checkbox.className = 'form-checkbox text-blue-600';
     checkbox.checked = estadoSalvo[membro.tag] || false;  // marca se estiver salvo
 
+    if (checkbox.checked) {
+      li.classList.add('bg-green-100');
+    }
+    
     // Quando clicar, atualiza o estado salvo
     checkbox.addEventListener('change', () => {
       const estadoAtual = obterEstadoSalvo();
       estadoAtual[membro.tag] = checkbox.checked;
       salvarEstado(estadoAtual);
+    
+      // Exemplo: mudança de cor quando selecionado
+      li.classList.toggle('bg-green-100', checkbox.checked);
     });
 
     // Monta o conteúdo do li
