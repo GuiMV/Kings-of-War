@@ -1,0 +1,26 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url('https://www.10wallpaper.com/wallpaper/1366x768/1705/Clash_Of_Clans-2017_Game_HD_Wallpaper_1366x768.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+
+    font-family: 'Luckiest Guy', cursive;
+}
+
+#Title{
+    font-size: 50px;
+    text-align: center;  
+    color:rgb(253, 188, 7);
+}
+
+#ADD_Member{
+    display: flex;
+    justify-content: center;
+    margin: 10px 0px 16px;
+}
+
+#config{
+    
+}
